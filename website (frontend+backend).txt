@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .header {
+      text-align: center;
+      background-color: #502726;
+      color: white;
+      padding: 20px;
+    }
+
+    .page1 {
+      text-align: left;
+      background: url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyMHx8TWljcm9ncmVlbiUyMHBsYW50cyUyMHByb2R1Y3Rpb24lMjBkZXZpY2V8ZW58MHx8fHwxNjk5ODU0MjM0fDA&ixlib=rb-4.0.3&q=80&w=1080.jpg') center no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      padding: 50px;
+    }
+
+    .header1 {
+      font-size: 4em;
+    }
+
+    .subheader {
+      font-size: 2em;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #502726;
+      color: white;
+      border: 2px solid white;
+      border-radius: 15px;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Eshoots</h1>
+  </div>
+
+  <div class="page1">
+    <div class="header1">Grow your own<br>microgreens<br>effortlessly</div>
+    <div class="subheader">Easily produce fresh and nutritious microgreens at<br>home with our innovative device.</div>
+    <a href="page2.html" class="button">Get started</a>
+  </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #502726;
+      color: white;
+    }
+
+    .page2 {
+      padding: 50px;
+    }
+
+    .content {
+      font-size:1.2em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="page2">
+    <div class="content">
+      Introducing Eshoots, the innovative solution for microgreen plants production. Our cutting-edge
+      device revolutionizes the way microgreens are grown. With Eshoots, you can effortlessly cultivate
+      nutrient-rich microgreens right in the comfort of your own space. Our state-of-the-art technology
+      ensures optimal growing conditions, providing the perfect balance of light, water, and nutrients for
+      your microgreens. Say goodbye to expensive complex setups and high manual maintenance
+      involved intensive processes. Eshoots simplifies the entire production cycle, allowing you to grow
+      fresh, disease-free and flavorful microgreens all year round. Elevate your culinary creations,
+      enhance your health, and embrace sustainable living with Eshoots.
+    </div>
+  </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #third-page-content {
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image-container {
+      margin-bottom: 20px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+    }
+
+    .image-info {
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="third-page-content">
+    <div class="image-container">
+      <img src="https://cdn.durable.co/blocks/0tgZcL7ZlRDcNF27zLunpejxAPEVGT7QYd5w88AhcRNocHigiIOAQYktosS6v41D.jpg" alt="Image 1">
+      <div class="image-info">
+        <h3>Efficient Microgreen Plant Production</h3>
+        <p>Maximize your yield with our eco-friendly advanced device, designed for efficient microgreen plant production.</p>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="https://cdn.durable.co/blocks/28FNWA4WrIrHAJJRW6kT5vmgBNHalqpz0TAgKhHbRJ7zVQ9bg5jSmpFgs592kgcn.jpg" alt="Image 2">
+      <div class="image-info">
+        <h3>Microgreens 40% MORE Nutritious</h3>
+        <p>Produce and consume highly nutritious microgreens packed with 40% more vitamins, minerals, and antioxidants compared to fully grown vegetables.</p>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="https://cdn.durable.co/blocks/0YiJo2ACUK7l0Mh5ECqlEWSAwW8ktvWOAGkfl2So63OSqRONRAdVGfiRU9Ze4ISw.jpg" alt
+
+="Image 3">
+      <div class="image-info">
+        <h3>Easy-to-Use Device</h3>
+        <p>Simplify your microgreen plant production process with our user-friendly device, making it easy for anyone to grow microgreens.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+      font-size: 1.5em;
+      padding: 20px;
+    }
+
+    #header1 {
+      font-size: 2em;
+      text-align: center;
+    }
+
+    #subheader {
+      font-size: 1.5em;
+    }
+
+    #image {
+      float: right;
+      max-width: 450px;
+      margin-left: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header1">About us</div>
+ 
+  <img id="image" src="https://cdn.durable.co/blocks/249hlLBFH6GrsOZMvqbnRCTu8ybuq1x27d0o55oIDSDGM9WNlNLFE5oUHYbdly8S.jpg" alt="About Us Image">        
+<h2>Our venture Eshoots is dedicated to delivering high-quality and efficient devices at pocket-friendly prices that enable the cultivation of microgreen plants and look forward to expanding it with other modernized agricultural solutions and stepping into the demanding international market too.</h2>
+ <h2>Our team of skilled professionals is committed to providing innovative solutions that meet the needs of our customers. We strive to contribute to the growth of the microgreen industry by offering reliable and user-friendly devices that ensure optimal plant growth and yield. Trust Eshoots for all your microgreen plant production device requirements.</h2>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots - Form</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+      font-size: 1.2em;
+    }
+
+    #content {
+      padding: 50px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content">
+    <form action="backend_process.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="plant">Plant Name:</label>
+      <input type="text" id="plant" name="plant" required>
+
+      <label for="date">Date of Sowing:</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2023 Eshoots. All rights reserved.</p>
+</footer>
+
+</body>
+
+</html>
+ <script>
+    // JavaScript code for handling form data and connecting to the backend
+    // (Note: This is a basic example and does not include actual database connection)
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.querySelector('form');
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        // Collect form data
+        const formData = new FormData(form);
+        const data = {};
+        formData.forEach((value, key) => {
+          data[key] = value;
+        });
+
+        // Send data to the backend (hypothetical example)
+        // This is where you would typically make an API request to your backend
+        console.log('Form data:', data);
+      });
+    });
+  </script>
+</body>
+</html>
+
+### Backend (Hypothetical example using Node.js, Express, and MongoDB):
+
+```javascript
+const express = require('express');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+
+const app = express();
+const port = 3000;
+
+// MongoDB connection (hypothetical example, update with your actual MongoDB connection string)
+mongoose.connect('mongodb://localhost:27017/eshoots', { useNewUrlParser: true, useUnifiedTopology: true });
+
+// Define a schema for the plants collection
+const plantSchema = new mongoose.Schema({
+  name: String,
+  temperature: Number,
+  moisture: Number,
+  humidity: Number,
+  lightWavelength: Number,
+  lightTimePeriod: String,
+  daysToMicrogreen: Number
+});
+
+// Create a model for the plants collection
+const Plant = mongoose.model('Plant', plantSchema);
+
+// Body parser middleware
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// Handle form submission
+app.post('/submit', async (req, res) => {
+  // Save form data to the database (hypothetical example)
+  const newPlant = new Plant({
+    name: req.body.plantName,
+    // Add other form fields to the corresponding properties
+  });
+
+  await newPlant.save();
+
+  // Send a response (you may customize this according to your needs)
+  res.send('Form submitted successfully!');
+});
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});

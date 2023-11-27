@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots - Home</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+    }
+
+    #header {
+      text-align: center;
+      font-size: 3em;
+      margin-top: 50px;
+    }
+
+    #content {
+      display: flex;
+    }
+
+    #left-column {
+      background: url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyMHx8TWljcm9ncmVlbiUyMHBsYW50cyUyMHByb2R1Y3Rpb24lMjBkZXZpY2V8ZW58MHx8fHwxNjk5ODU0MjM0fDA&ixlib=rb-4.0.3&q=80&w=1080.jpg");
+      background-size: cover;
+      flex: 1;
+    }
+
+    #left-content {
+      padding: 20px;
+    }
+
+    #get-started-btn {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">Grow your own<br>microgreens<br>effortlessly</div>
+  <div id="content">
+    <div id="left-column">
+      <div id="left-content">
+        <h1 style="font-size: 2em; color: white;">Easily produce fresh and nutritious microgreens at home with our innovative device.</h1>
+        <a href="second_page.html" id="get-started-btn">Get started</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots - Features</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+      font-size: 1.2em;
+    }
+
+    #content {
+      padding: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content">
+    <p>
+      Introducing Eshoots, the innovative solution for microgreen plants production. Our cutting-edge
+      device revolutionizes the way microgreens are grown. With Eshoots, you can effortlessly cultivate
+      nutrient-rich microgreens right in the comfort of your own space.Our state-of-the-art technology
+      ensures optimal growing conditions, providing the perfect balance of light, water, and nutrients for
+      your microgreens. Say goodbye to expensive complex setups and high manual maintenance
+      involved intensive processes. Eshoots simplifies the entire production cycle, allowing you to grow
+      fresh, disease-free and flavorful microgreens all year round . Elevate your culinary creations,
+      enhance your health, and embrace sustainable living with Eshoots.
+    </p>
+  </div>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots - Images</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+      font-size: 1.2em;
+    }
+
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-container">
+    <img src="https://cdn.durable.co/blocks/0tgZcL7ZlRDcNF27zLunpejxAPEVGT7QYd5w88AhcRNocHigiIOAQYktosS6v41D.jpg" alt="Image 1">
+    <p><strong>Efficient Microgreen Plant Production</strong></p>
+    <p>Maximize your yield with our economic-friendly advanced device, designed for efficient microgreen plant production.</p>
+  </div>
+
+  <div class="image-container">
+    <img src="https://cdn.durable.co/blocks/28FNWA4WrIrHAJJRW6kT5vmgBNHalqpz0TAgKhHbRJ7zVQ9bg5jSmpFgs592kgcn.jpg" alt="Image 2">
+    <p><strong>Microgreens 40% MORE Nutritious</strong></p>
+    <p>Produce and consume highly nutritious microgreens packed with 40% more nutrition vitamins, minerals, and antioxidants rather than having chemically filled luscious fully grown vegetables.</p>
+  </div>
+
+  <div class="image-container">
+    <img src="https://cdn.durable.co/blocks/0YiJo2ACUK7l0Mh5ECqlEWSAwW8ktvWOAGkfl2So63OSqRONRAdVGfiRU9Ze4ISw.jpg" alt="Image 3">
+    <p><strong>Easy-to-Use Device</strong></p>
+    <p>Simplify your microgreen plant production process with our user-friendly device, making it easy for anyone to grow microgreens.</p>
+  </div>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots - About Us</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+      font-size: 1.2em;
+    }
+
+    #content {
+      padding: 50px;
+    }
+
+    #about-image {
+      float: right;
+      max-width: 300px;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+
+<body
+
+>
+  <div id="content">
+    <h1>About us</h1>
+    <h2>Our venture Eshoots is dedicated to delivering high-quality and efficient devices at pocket-friendly prices that enable the cultivation of microgreen plants and look forward to expanding it with other modernized agricultural solutions and step into the demanding international market too.</h2>
+    <p>Our team of skilled professionals is committed to providing innovative solutions that meet the needs of our customers. We strive to contribute to the growth of the microgreen industry by offering reliable and user-friendly devices that ensure optimal plant growth and yield. Trust Eshoots for all your microgreen plants production device requirements.</p>
+    <img id="about-image" src="https://cdn.durable.co/blocks/249hlLBFH6GrsOZMvqbnRCTu8ybuq1x27d0o55oIDSDGM9WNlNLFE5oUHYbdly8S.jpg" alt="About Us Image">
+  </div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshoots - Form</title>
+  <style>
+    body {
+      background-color: #502726;
+      color: white;
+      font-size: 1.2em;
+    }
+
+    #content {
+      padding: 50px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content">
+    <form action="backend_process.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="plant">Plant Name:</label>
+      <input type="text" id="plant" name="plant" required>
+
+      <label for="date">Date of Sowing:</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

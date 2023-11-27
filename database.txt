@@ -1,0 +1,22 @@
+-- Create a table to store plant information
+CREATE TABLE PlantInfo (
+    PlantID INT PRIMARY KEY,
+    PlantName VARCHAR(50) NOT NULL,
+    IdealTemperature FLOAT,
+    IdealMoisture FLOAT,
+    IdealHumidity FLOAT,
+    IdealLightWavelength INT,
+    IdealLightTimePeriod VARCHAR(50),
+    DaysToHarvest INT
+);
+
+-- Insert data for each plant
+INSERT INTO PlantInfo (PlantID, PlantName, IdealTemperature, IdealMoisture, IdealHumidity, IdealLightWavelength, IdealLightTimePeriod, DaysToHarvestMicrogreen)
+VALUES
+    (1, 'Green Mustards', 25.0, 60.0, 70.0, 550, '12 hours', 14),
+    (2, 'Broccoli', 18.0, 70.0, 80.0, 600, '10 hours', 20),
+    (3, 'Spinach', 22.0, 65.0, 75.0, 500, '14 hours', 12),
+    (4, 'Radish Pink', 20.0, 75.0, 70.0, 560, '12 hours', 18);
+
+-- Query to retrieve plant information
+SELECT * FROM PlantInfo;
