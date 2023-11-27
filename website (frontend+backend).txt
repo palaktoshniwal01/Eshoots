@@ -255,7 +255,7 @@
       <label for="email">Email ID:</label>
       <input type="email" id="email" name="email" required>
 
-      <label for="plant">Plant Name:</label>
+      <label for="microgreen">Microgreen Name:</label>
       <input type="text" id="plant" name="plant" required>
 
       <label for="date">Date of Sowing:</label>
